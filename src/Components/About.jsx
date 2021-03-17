@@ -13,7 +13,7 @@ function About(){
  
  
  const ApiGet = () => {
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${query}&appid=57a64f358fa6ebadb36952d88ecd4342&units=imperial`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=57a64f358fa6ebadb36952d88ecd4342&units=imperial`)
    .then(response => response.json())
    .then (data => { 
      setWeather(data)
