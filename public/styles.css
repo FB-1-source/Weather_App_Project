@@ -1,0 +1,71 @@
+html { 
+background: linear-gradient(#e66465, #9198e5) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+ body {
+ color:ghostwhite;
+ font-family: 'Raleway', sans-serif;
+ 
+ 
+
+}
+
+.input {
+border: none;
+border-radius: 25px;
+outline: none;
+
+}
+
+.button {
+ border-radius: 25px;
+ background-color: #9198e5;
+ text-align:center;
+ margin-left: 10px;
+ border:none;
+ outline: none;
+ }
+
+ .box {
+  margin-top: 5%;
+  border-style: solid;
+  border-radius: 25px;
+  text-align: center;
+  width: 20%;
+  margin-left: 41%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  
+
+ }
+
+.nav{
+ border-style: solid;
+ border-radius: 25px;
+ text-align: center;
+ width: 20%;
+ margin-left: 41%;
+ box-sizing: border-box;
+ word-wrap: break-word;
+ 
+
+
+}
+
+.nav li { 
+ display: inline;
+ margin-right: 10px;
+
+
+}
+
+.par {
+ text-align: center;
+ margin-top: 7%;
+}
+
+
