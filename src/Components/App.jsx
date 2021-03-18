@@ -4,15 +4,10 @@ import About from "./About"
 
 function App(){
 
-
 return  <div>
         <Heading/>
         <About/>
         </div>
-      
-
-
-
 }
 
 

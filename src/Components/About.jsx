@@ -14,8 +14,18 @@ function About(){
  
  const ApiGet = () => {
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=57a64f358fa6ebadb36952d88ecd4342&units=imperial`)
-   .then(response => response.json())
-   .then (data => { 
+  .then((res) => {
+    if (res.status === 400) {
+      throw alert("Please enter a valid location");   
+    }
+    
+    if (res.status === 404) {
+        throw alert("Please enter a valid location"); 
+    }
+    return res.json();
+    
+  })
+  .then (data => { 
      setWeather(data)
      setTemp(Math.round(Math.floor(data.main.temp)) + "°F")
      setCoun(data.sys.country + ",")
@@ -26,7 +36,7 @@ function About(){
 
    
   }
-
+  
  function test(event) {
   const newval = event.target.value
  return setQuery(newval)
