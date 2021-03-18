@@ -24,6 +24,7 @@ outline: none;
 .button {
  border-radius: 25px;
  background-color: #9198e5;
+ color: white;
  text-align:center;
  margin-left: 10px;
  border:none;
