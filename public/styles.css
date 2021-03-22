@@ -6,6 +6,13 @@ background: linear-gradient(#e66465, #9198e5) no-repeat center center fixed;
 background-size: cover;
 }
 
+@media (min-width:320px)  {}
+@media (min-width:481px)  {}
+@media (min-width:641px)  {}
+@media (min-width:961px)  {}
+@media (min-width:1025px) {}
+@media (min-width:1281px) {}
+
  body {
  color:ghostwhite;
  font-family: 'Raleway', sans-serif;
