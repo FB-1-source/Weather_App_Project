@@ -4,7 +4,7 @@ import About from "./About"
 
 function App(){
 
-return  <div>
+return  <div className="all">
         <Heading/>
         <About/>
         </div>

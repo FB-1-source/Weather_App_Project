@@ -1,24 +1,21 @@
 html { 
 background: linear-gradient(#e66465, #9198e5) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
 background-size: cover;
 }
 
-@media (min-width:320px)  {}
-@media (min-width:481px)  {}
-@media (min-width:641px)  {}
-@media (min-width:961px)  {}
-@media (min-width:1025px) {}
-@media (min-width:1281px) {}
+.all {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
 
- body {
- color:ghostwhite;
- font-family: 'Raleway', sans-serif;
- 
- 
+}
 
+body {
+color:ghostwhite;
+font-family: 'Raleway', sans-serif;
+  
 }
 
 .input {
@@ -36,32 +33,11 @@ outline: none;
  margin-left: 10px;
  border:none;
  outline: none;
- }
-
- .box {
-  margin-top: 5%;
-  border-style: solid;
-  border-radius: 25px;
-  text-align: center;
-  width: 20%;
-  margin-left: 41%;
-  box-sizing: border-box;
-  word-wrap: break-word;
-  
-
- }
-
-.nav{
- border-style: solid;
- border-radius: 25px;
- text-align: center;
- width: 20%;
- margin-left: 41%;
- box-sizing: border-box;
- word-wrap: break-word;
+ } 
  
-
-
+.box {
+ margin-top: 20%;
+ border-style: solid;
 }
 
 .nav li { 
