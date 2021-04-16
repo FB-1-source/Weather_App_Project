@@ -1,55 +1,48 @@
-html { 
-background: linear-gradient(#e66465, #9198e5) no-repeat center center fixed; 
-background-size: cover;
+html {
+  background: linear-gradient(#e66465, #9198e5) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .all {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 body {
-color:ghostwhite;
-font-family: 'Raleway', sans-serif;
-  
+  color: ghostwhite;
+  font-family: "Raleway", sans-serif;
 }
 
 .input {
-border: none;
-border-radius: 25px;
-outline: none;
-
+  border: none;
+  border-radius: 25px;
+  outline: none;
 }
 
 .button {
- border-radius: 25px;
- background-color: #9198e5;
- color: white;
- text-align:center;
- margin-left: 10px;
- border:none;
- outline: none;
- } 
- 
-.box {
- margin-top: 20%;
- border-style: solid;
+  border-radius: 25px;
+  background-color: #9198e5;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  border: none;
+  outline: none;
 }
 
-.nav li { 
- display: inline;
- margin-right: 10px;
+.box {
+  margin-top: 20%;
+  border-style: solid;
+}
 
-
+.nav li {
+  display: inline;
+  margin-right: 10px;
 }
 
 .par {
- text-align: center;
- margin-top: 7%;
+  text-align: center;
+  margin-top: 7%;
 }
-
-
