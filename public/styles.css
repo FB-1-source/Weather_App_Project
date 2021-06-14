@@ -1,6 +1,16 @@
 html {
-  background: linear-gradient(#e66465, #9198e5) no-repeat center center fixed;
+  background: #e66465;
   background-size: cover;
+}
+
+.comb {
+  background-color: #9198e5;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .all {
@@ -9,6 +19,7 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 2rem;
 }
 
 body {
@@ -28,13 +39,14 @@ body {
   color: white;
   text-align: center;
   margin-left: 10px;
-  border: none;
   outline: none;
+  border-color: #e66465;
 }
 
 .box {
   margin-top: 20%;
   border-style: solid;
+  margin-bottom: 1rem;
 }
 
 .nav li {
@@ -44,5 +56,12 @@ body {
 
 .par {
   text-align: center;
-  margin-top: 7%;
+  margin-top: 4%;
+}
+
+@media (max-width: 600px) {
+  .comb {
+    width: 90%;
+    height: 100%;
+  }
 }
