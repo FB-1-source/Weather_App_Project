@@ -13,7 +13,7 @@ function About() {
 
   const ApiGet = () => {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${process.env.React_App_Secret_Key}&units=imperial`
+      `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${process.env.REACT_APP_Secret_Key}&units=imperial`
     )
       .then((res) => {
         if (res.status === 400) {
