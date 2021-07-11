@@ -43,28 +43,30 @@ function About() {
   }
 
   return (
-    <div className="comb">
-      <Heading />
-      <div className="par">
-        <h1>Enter your City</h1>
-        <input
-          className="input"
-          value={query}
-          onChange={test}
-          type="text"
-          required
-        ></input>
-        <button type="submit" className="button" onClick={ApiGet}>
-          Search
-        </button>
-        <div className="box">
-          <h2>{date}</h2>
-          <h2 value={query}>
-            {weather.name} {coun}
-          </h2>
-          <h2>{temp}</h2>
-          <img src={icon}></img>
-          <h3>{desc}</h3>
+    <div>
+      <div className="comb">
+        <Heading />
+        <div className="par">
+          <h1>Enter your City</h1>
+          <input
+            className="input"
+            value={query}
+            onChange={test}
+            type="text"
+            required
+          ></input>
+          <button type="submit" className="button" onClick={ApiGet}>
+            Search
+          </button>
+          <div className="box">
+            <h2>{date}</h2>
+            <h2 value={query}>
+              {weather.name} {coun}
+            </h2>
+            <h2>{temp}</h2>
+            <img src={icon}></img>
+            <h3>{desc}</h3>
+          </div>
         </div>
       </div>
     </div>

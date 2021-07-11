@@ -1,16 +1,16 @@
 body {
-  background-color: whitesmoke;
-  
+  background-color: #9198e5;
 }
 
 .comb {
-  background-color: #9198e5;
-  width: 50%;
+  width: 600px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .all {
@@ -23,7 +23,7 @@ body {
 }
 
 body {
-  color: ghostwhite;
+  color: whitesmoke;
   font-family: "Raleway", sans-serif;
 }
 
@@ -39,8 +39,7 @@ body {
   color: white;
   text-align: center;
   margin-left: 10px;
-  outline: none;
-  border-color: #e66465;
+  border-color: #9198e5;
 }
 
 .box {
@@ -59,9 +58,9 @@ body {
   margin-top: 4%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .comb {
-    width: 90%;
-    height: 100%;
+    width: 300px;
+    height: 90%;
   }
 }
